@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:elevation="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_LinearLayout"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/id_newsPic"
+            android:background="@drawable/car2"
+            />
+        <TextView
+            android:id="@+id/id_Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:maxLines="3"
+            android:textColorLink="@color/colorPrimary"
+            android:text="Heading"
+            android:textColor="@color/colorBlack"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/id_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColorLink="#0000ff"
+            android:text="News abc@gmail.com ibf fawb lief sflwhfw fefhq f,qjhfq fq
+        qfbqkef qq qkegf qufbqkfbq gqjgbqoubqiyg
+        qiqkhvqq
+        is a rufkajeb bwel bwlbjwng wlbnv ale valjv oeb vlaj valj qlj4
+        qe viqev uaw fjeh vljwev lWEVJlwe lWE FL flF L flJ F3Lf h3
+        FKUf 3ku F3ku3 fuk 3FU f3ku UKF kuf UKF 3UK fu FU 3f"
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp" />
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:maxLines="3"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="Heading"-->
+        <!--android:textSize="35dp"-->
+        <!--android:id="@+id/id_Heading"/>-->
+
+        <!-- -->
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:background="@color/colorViolet"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="ga.himanshu.home.inshort.SecondFragment">-->
+
+    <!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/hello_blank_fragment" />-->
+
+<!--</FrameLayout>-->
